@@ -1,13 +1,8 @@
-const multiplyUs = num1, num2 => console.log(num1 * num2); 
+var multiplyUs = (num1, num2) => console.log(num1 * num2); 
 
-const subtractFromTen = num => 
-	const diff = 10 - num; 
-	console.log(diff);
+var subtractFromTen = num => {const diff = 10 - num; console.log(diff);}
 
-
-const printDate = date = function() {
-	console.log(date);
-}
+var printDate = date => {console.log(date);}
 
 multiplyUs(2,6);
 subtractFromTen(4);
