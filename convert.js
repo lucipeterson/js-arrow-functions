@@ -1,12 +1,12 @@
-function addToTen(num) {
-  return 10 + num;
-}
+var addToTen = ((num) => {return 10 + num;});
 
-function divideUs(num1, num2) {
-  return num1/num2;
-}
+testNum = addToTen(4);
+console.log(testNum);
 
-function printMyName() {
-  let myName = 'Ashley';
-	console.log(myName);
-}
+var divideUs = ((num1, num2) => {return num1/num2;})
+
+console.log(divideUs(10,5));
+
+var printMyName = (() => {let myName = 'Ashley';console.log(myName);})
+
+printMyName();
